@@ -1,0 +1,74 @@
+13:36:00  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+13:36:09  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+13:36:09  INFO  tests.TestBase - Start test --->addNewCarTestPositive
+13:36:09  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+13:36:09  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+13:36:09  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+13:36:09  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+13:36:10  INFO  manager.MyListener - Start search element --->By.id: email
+13:36:10  INFO  manager.MyListener - The element --->By.id: email was found
+13:36:10  INFO  manager.MyListener - Start search element --->By.id: password
+13:36:10  INFO  manager.MyListener - The element --->By.id: password was found
+13:36:10  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+13:36:10  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+13:36:10  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+13:36:11  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+13:36:11  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+13:36:11  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+13:36:12  INFO  manager.MyListener - Start search element --->By.id: 1
+13:36:12  INFO  manager.MyListener - The element --->By.id: 1 was found
+13:36:12  INFO  manager.MyListener - Start search element --->By.cssSelector: h2
+13:36:12  INFO  manager.MyListener - The element --->By.cssSelector: h2 was found
+13:36:12  INFO  manager.MyListener - Start search element --->By.id: pickUpPlace
+13:36:12  INFO  manager.MyListener - The element --->By.id: pickUpPlace was found
+13:36:12  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+13:36:13  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+13:36:13  INFO  manager.MyListener - Start search element --->By.id: make
+13:36:13  INFO  manager.MyListener - The element --->By.id: make was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: model
+13:36:14  INFO  manager.MyListener - The element --->By.id: model was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: year
+13:36:14  INFO  manager.MyListener - The element --->By.id: year was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: engine
+13:36:14  INFO  manager.MyListener - The element --->By.id: engine was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: fuel
+13:36:14  INFO  manager.MyListener - The element --->By.id: fuel was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "Petrol"]
+13:36:14  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "Petrol"] was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: gear
+13:36:14  INFO  manager.MyListener - The element --->By.id: gear was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "MT"]
+13:36:14  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "MT"] was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: wheelsDrive
+13:36:14  INFO  manager.MyListener - The element --->By.id: wheelsDrive was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "AWD"]
+13:36:14  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "AWD"] was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: doors
+13:36:14  INFO  manager.MyListener - The element --->By.id: doors was found
+13:36:14  INFO  manager.MyListener - Start search element --->By.id: seats
+13:36:14  INFO  manager.MyListener - The element --->By.id: seats was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: class
+13:36:15  INFO  manager.MyListener - The element --->By.id: class was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: fuelConsumption
+13:36:15  INFO  manager.MyListener - The element --->By.id: fuelConsumption was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: serialNumber
+13:36:15  INFO  manager.MyListener - The element --->By.id: serialNumber was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: price
+13:36:15  INFO  manager.MyListener - The element --->By.id: price was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: distance
+13:36:15  INFO  manager.MyListener - The element --->By.id: distance was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.cssSelector: .feature-input
+13:36:15  INFO  manager.MyListener - The element --->By.cssSelector: .feature-input was found
+13:36:15  INFO  manager.MyListener - Start search element --->By.id: about
+13:36:16  INFO  manager.MyListener - The element --->By.id: about was found
+13:36:16  INFO  manager.MyListener - Start search element --->By.id: photos
+13:36:16  INFO  manager.MyListener - The element --->By.id: photos was found
+13:36:16  INFO  manager.MyListener - We have a throwable --> org.openqa.selenium.WebDriverException: unknown error: path is not absolute: /Users/levko/Documents/GitHub/Qa30_ILCarro-master/auto.jpeg
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QJM2T1EP', ip: '10.0.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\levko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eea266571dd1e341696ba63ba6fa9cca
+13:36:16  INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-2176.png
+13:36:16  INFO  tests.TestBase - The end of test --->addNewCarTestPositive
