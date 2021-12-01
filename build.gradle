@@ -52,3 +52,8 @@ task reg(type: Test){
 
     }
 }
+
+
+test {
+    useJUnitPlatform()
+}
